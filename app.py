@@ -6,7 +6,7 @@ import streamlit as st
 
 
 # loading the saved model
-loaded_model = joblib.load('Iris1')
+loaded_model = joblib.load('Iris')
 
 
 # creating a function for Prediction
