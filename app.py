@@ -1,14 +1,12 @@
 
-
-import streamlit as st
 import numpy as np
 
 import joblib
-
+import streamlit as st
 
 
 # loading the saved model
-loaded_model = joblib.load('Iris')
+loaded_model = joblib.load('Iris1')
 
 
 # creating a function for Prediction
@@ -64,5 +62,4 @@ def main():
     
 if __name__ == '__main__':
     main()
-       
-      
+    
